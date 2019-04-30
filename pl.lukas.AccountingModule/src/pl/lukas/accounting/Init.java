@@ -2,7 +2,6 @@ package pl.lukas.accounting;
 
 import pl.lukas.payroll.PayrollService;
 
-import java.util.ServiceLoader;
 import java.util.logging.Logger;
 
 public class Init {
@@ -13,7 +12,9 @@ public class Init {
 
         LOG.info("Accounting Module has been initialized");
 
-        ServiceLoader<PayrollService> services = ServiceLoader.load(PayrollService.class);
-        services.findFirst().ifPresent(s -> LOG.info(s.getCurrency()));
+        PayrollService instance = PayrollService.getInstance();
+
+        LOG.info(instance.getCurrency());
+
     }
 }
