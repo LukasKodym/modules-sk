@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/pl.lukas.AccountingModule.iml" filepath="$PROJECT_DIR$/pl.lukas.AccountingModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/pl.lukas.HRModule.iml" filepath="$PROJECT_DIR$/pl.lukas.HRModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pl.lukas.MainModule/pl.lukas.MainModule.iml" filepath="$PROJECT_DIR$/../pl.lukas.MainModule/pl.lukas.MainModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pl.lukas.PayrollService/pl.lukas.PayrollService.iml" filepath="$PROJECT_DIR$/../pl.lukas.PayrollService/pl.lukas.PayrollService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pl.lukas.PolishPayroll/pl.lukas.PolishPayroll.iml" filepath="$PROJECT_DIR$/../pl.lukas.PolishPayroll/pl.lukas.PolishPayroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pl.lukas.SupplyModule/pl.lukas.SupplyModule.iml" filepath="$PROJECT_DIR$/../pl.lukas.SupplyModule/pl.lukas.SupplyModule.iml" />
     </modules>
   </component>

@@ -7,7 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="pl.lukas.PayrollService" />
-    <orderEntry type="module" module-name="pl.lukas.PolishPayroll" />
   </component>
 </module>
