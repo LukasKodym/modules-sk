@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../modules-example.iml" filepath="$PROJECT_DIR$/../modules-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pl.lukas.AccountingModule/pl.lukas.AccountingModule.iml" filepath="$PROJECT_DIR$/../pl.lukas.AccountingModule/pl.lukas.AccountingModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/pl.lukas.AccountingModule.iml" filepath="$PROJECT_DIR$/pl.lukas.AccountingModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/pl.lukas.HRModule.iml" filepath="$PROJECT_DIR$/pl.lukas.HRModule.iml" />

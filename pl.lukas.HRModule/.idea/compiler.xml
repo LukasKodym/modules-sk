@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pl.lukas.HRModule" />
+        <module name="pl.lukas.AccountingModule" />
+        <module name="pl.lukas.MainModule" />
+        <module name="pl.lukas.PayrollService" />
+      </profile>
+      <profile name="Annotation profile for modules-example" enabled="true">
+        <sourceOutputDir name="../pl.lukas.AccountingModule/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../pl.lukas.AccountingModule/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pl.lukas.SupplyModule" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="modules-example" target="10" />
+      <module name="pl.lukas.AccountingModule" target="10" />
       <module name="pl.lukas.HRModule" target="10" />
+      <module name="pl.lukas.MainModule" target="10" />
+      <module name="pl.lukas.PayrollService" target="10" />
+      <module name="pl.lukas.SupplyModule" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>
